@@ -1,1 +1,12 @@
-{"lol32": "keke", "some": 52}
+{
+                    name: "default",
+                    description: "Стандартный фильтр. Удаляет сообщения с ссылками вида t.me/username и @username",
+                    only_channels: true,
+                    enabled: true,
+                    filters: [
+                        {
+                            text_contains: ["t.me/", "@"],
+                            html_contains: ["onclick=\"joinchat(this)\""]
+                        }
+                    ]
+                }
