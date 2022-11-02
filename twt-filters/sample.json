@@ -1,0 +1,15 @@
+{
+    "name": "myFilter",
+    "description": "Description...",
+    "only_channels": true,
+    "enabled": true,
+    "filters": [
+        {
+             "text_contains": ["t.me/", "@"],
+             "html_contains": ["onclick=\"joinchat(this)\""],
+             "html_selector": "a[onclick]",
+             "text_matches": "RegExp",
+             "html_matches": "RegExp",
+        }
+    ]
+}
