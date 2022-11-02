@@ -1,12 +1,12 @@
 {
-    name: "myFilter",
-    description: "blah blah blah",
-    only_channels: true,
-    enabled: true,
-    filters: [
+    "name": "myFilter",
+    "description": "blah blah blah",
+    "only_channels": true,
+    "enabled": true,
+    "filters": [
         {
-            text_contains: ["t.me/", "@"],
-            html_contains: ["onclick=\"joinchat(this)\""]
+            "text_contains": ["t.me/", "@"],
+            "html_contains": ["onclick=\"joinchat(this)\""]
         }
     ]
 }
