@@ -9,7 +9,7 @@
              "html_contains": ["onclick=\"joinchat(this)\""],
              "html_selector": "a[onclick]",
              "text_matches": "RegExp",
-             "html_matches": "RegExp",
+             "html_matches": "RegExp"
         }
     ]
 }
